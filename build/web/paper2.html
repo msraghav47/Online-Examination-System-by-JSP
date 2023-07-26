@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>Exam Paper</title>
+<script>
+function Solution()
+{
+var c=0;
+if(p1.q1.value=="The W3c")
+c=c+2;
+if(p1.q2.value=="h1")
+c=c+2;
+if(p1.q3.value=="br")
+c=c+2;
+if(p1.q4.value=="strong")
+c=c+2;
+if(p1.q5.value=="em")
+c=c+2;
+if(p1.q6.value=="/")
+c=c+2;
+if(p1.q7.value=="True")
+c=c+2;
+if(p1.q8.value=="ol")
+c=c+2;
+if(p1.q9.value=="ul")
+c=c+2;
+if(p1.q10.value=="True")
+c=c+2;
+alert("Your score is "+c);
+}
+</script>
+<style>
+    .div1{
+        width: 100%;
+height: 80%;
+overflow:auto;
+padding: 25px;
+border: 1px solid red;
+
+    }
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/genral.css">
+    <link rel="stylesheet" href="quaries.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="bg-img">
+     <header class="header">
+            <h1 class="logo"> Online Examination System </h1>
+            <nav class="main-nav">
+                <ul class="main-nav-list">
+                    <li><a class="main-nav-link" href="Home.html"> Home </a></li>
+                    <li><a class="main-nav-link nav-cta" href="admin_login.html"> Admin Login </a></li>
+                    <li><a class="main-nav-link nav-cta" href="UserLogin.html"> Login </a></li>
+                    <li><a class="main-nav-link nav-cta" href="Register.html"> Register </a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="div1">
+            <form name="p1" onsubmit="Solution()" method="post" action="well.jsp">
+Q1. Who is making the Web standards?<br>
+<input type="radio" name="q1" value="Google">(A) Google<br>
+<input type="radio" name="q1" value="The W3c">(B) The W3c<br>
+<input type="radio" name="q1" value="Microsoft">(C) Microsoft<br>
+<input type="radio" name="q1" value="Mozilla">(D) Mozilla<br><br>
+Q2. Choose the corect HTML element for the largest heading:<br>
+<input type="radio" name="q2" value="h1">(A) h1<br>
+<input type="radio" name="q2" value="Head">(B) Head<br>
+<input type="radio" name="q2" value="eading">(C)eading<br>
+<input type="radio" name="q2" value="h6">(D) h6<br><br>
+Q3. WHat is the correct HTML element for inserting a line break ?<br>
+<input type="radio" name="q3" value="br">(A) br<br>
+<input type="radio" name="q3" value="lb">(B) lb<br>
+<input type="radio" name="q3" value="break">(C) break<br><br>
+Q4. Choose the correct HTML element to define important text :<br>
+<input type="radio" name="q4" value="important">(A) important<br>
+<input type="radio" name="q4" value="b">(B) b<br>
+<input type="radio" name="q4" value="strong">(C) strong<br>
+<input type="radio" name="q4" value="i">(D) i<br><br> 
+Q5. Choose the cprrect HTML element to define emphasized text :<br>
+<input type="radio" name="q5" value="i">(A) i<br>
+<input type="radio" name="q5" value="italic">(B) italic<br>
+<input type="radio" name="q5" value="em">(C) em<br><br>
+Q6. Which character is used to indicate an end tag ?<br>
+<input type="radio" name="q6" value="<">(A) <<br>
+<input type="radio" name="q6" value="^">(B) ^<br>
+<input type="radio" name="q6" value="*">(C) *<br>
+<input type="radio" name="q6" value="/">(D) /<br><br>
+Q7. Inline elements are normally displayed without starting a new line.<br>
+<input type="radio" name="q7" value="False">(A) False<br>
+<input type="radio" name="q7" value="True">(B) True <br><br>
+Q8. How can you make a numbered list ?<br>
+<input type="radio" name="q8" value="ul">(A) ul<br>
+<input type="radio" name="q8" value="dl">(B) dl<br>
+<input type="radio" name="q8" value="list">(C) list<br>
+<input type="radio" name="q8" value="ol">(D) ol<br><br>
+Q9. How can you make a bulleted list ?
+<input type="radio" name="q9" value="ul">(A) ul<br>
+<input type="radio" name="q9" value="list">(B) list<br>
+<input type="radio" name="q9" value="ol">(C) ol<br>
+<input type="radio" name="q9" value="dl">(D) dl<br><br>
+Q10.HTML comments start with (!---and end with -->)<br>
+<input type="radio" name="q10" value="True">(A) True<br>
+<input type="radio" name="q10" value="False">(B) False<br><br>
+<input type="submit" value="SUBMIT" style="color:white;background-color:green;width:200px;height:50px">
+</form>
+        </body>
+        </html>
