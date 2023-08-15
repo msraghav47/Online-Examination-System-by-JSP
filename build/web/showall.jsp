@@ -60,7 +60,7 @@ out.print("<td>"+rs.getString(2)+"</td>");
 out.print("<td>"+rs.getString(3)+"</td>");
 out.print("<td>"+rs.getString(4)+"</td>");
 out.print("<td>"+rs.getString(5)+"</td>");
-out.print("<td><a href=Del?em="+rs.getString(5)+">Delete</a></td>");
+out.print("<td><a href=dell.jsp?em="+rs.getString(2)+">Delete</a></td>");
 out.print("</tr>");
 }
 %>

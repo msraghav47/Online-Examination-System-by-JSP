@@ -35,7 +35,7 @@
 
 .main-nav-link:link,
 .main-nav-link:visited{
-        font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif;
     text-decoration: none;
     display: inline-block;
     font-size: 1.6rem;
@@ -47,6 +47,8 @@
 .main-nav-link:hover,
 .main-nav-link:active{
     color: #ff48d5;
+    transition: all 0.3s;
+    font-size: 1.8rem;
 }
 
 .main-nav-link.nav-cta:link,
